@@ -1,0 +1,63 @@
+
+.wrapperPhotos {
+  position: relative;
+  max-width: 1000px;
+  max-height: 800px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.titleBlock {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Staatliches', cursive;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  z-index: 2;
+  color: rgb(245, 245, 245);
+  opacity: .8;
+  
+  /* background-color: rgb(29, 18, 54); */
+}
+
+.titleBlock_mainTitle1 {
+  color: #fff;
+  font-size: 100px;
+  align-self: center;
+  margin: 0;
+  margin-top: auto;
+  line-height: 100px;
+}
+.titleBlock_mainTitle2 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.column {
+  width: 25%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+};
+
+.photoItem3 {
+  display: none
+}
+.photoItem3 {
+  transform: translate3d(0, 0, 0 );
+  opacity: 0;
+  
+}
+.active3 {
+  transform: translate3d(-90px, 0, 0 );
+  opacity: 0.5;
+  transition: all 4s ease-in-out .2s;
+}
