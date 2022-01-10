@@ -1,0 +1,32 @@
+.howBlock {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+h2 {
+  color: #fff;
+}
+.steps {
+  display: flex;
+  width: 100%;
+}
+.howBlock_step {
+  width: 20%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.c1 {
+  background-color: #13c2c2;
+}
+.c2 {
+  background-color: #722ed1;
+}
+.c3 {
+  background-color: #eb2f96;
+}
+.c4 {
+  background-color: #fa541c;
+}

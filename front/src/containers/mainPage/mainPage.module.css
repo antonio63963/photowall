@@ -1,3 +1,15 @@
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  justify-content: space-between;
+}
+.sizeApp {
+  max-width: 1200px;
+  display: flex;
+}
 footer.footer {
   background-color: #001529;
   color: rgba(255, 255, 255, 0.65);

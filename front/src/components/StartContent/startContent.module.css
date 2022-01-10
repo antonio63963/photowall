@@ -19,12 +19,9 @@
   bottom: 0;
   right: 0;
   left: 0;
-
   z-index: 2;
   color: rgb(245, 245, 245);
   opacity: .8;
-  
-  /* background-color: rgb(29, 18, 54); */
 }
 
 .titleBlock_mainTitle1 {
@@ -35,10 +32,12 @@
   margin-top: auto;
   line-height: 100px;
 }
+
 .titleBlock_mainTitle2 {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  font-size: 22px;
 }
 .column {
   width: 25%;
@@ -59,5 +58,5 @@
 .active3 {
   transform: translate3d(-90px, 0, 0 );
   opacity: 0.5;
-  transition: all 4s ease-in-out .2s;
+  transition: all 2s ease-in-out .2s;
 }
