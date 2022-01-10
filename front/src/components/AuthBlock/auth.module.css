@@ -1,0 +1,19 @@
+.authBlock {
+  color: #002329;
+  background-color: #feffe6;
+  padding-bottom: 100px;
+}
+.wrapOptions {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  padding: 50px;
+}
+.authOption {
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  cursor: pointer;
+}

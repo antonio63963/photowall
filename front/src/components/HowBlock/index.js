@@ -9,26 +9,28 @@ import {
 function HowBlock() {
   return (
     <div className={style.howBlock}>
-      <h2>How it works</h2>
+      <h2 className={style.title}>How it works</h2>
       <div className={style.steps}>
           <div className={`${style.howBlock_step} ${style.c1}`}>
-          <DatabaseOutlined />
+            <div className={`${style.arrow} ${style.c1}`}></div>
+            <DatabaseOutlined className={style.iconStyle} />
             Registration
             </div>
           <div className={`${style.howBlock_step} ${style.c2}`}>
-          <FileDoneOutlined />
+          <FileDoneOutlined className={style.iconStyle} />
             Fill in your profile
             </div>
           <div className={`${style.howBlock_step} ${style.c3}`}>
-          <PictureOutlined />
-            Create an album</div>
+            <PictureOutlined className={style.iconStyle} />
+            Create an album
+          </div>
           <div className={`${style.howBlock_step} ${style.c4}`}>
-          <CloudUploadOutlined />
+          <CloudUploadOutlined className={style.iconStyle} />
             Load photos
           </div>
           <div className={`${style.howBlock_step} ${style.c1}`}>
-          <LinkOutlined />
-            Get the link to share
+          <LinkOutlined className={style.iconStyle} />
+            Get the link
             </div>
         </div>
     </div>

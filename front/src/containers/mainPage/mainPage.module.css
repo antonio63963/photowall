@@ -3,22 +3,54 @@
   justify-content: center;
   align-items: center;
 }
-.header {
-  justify-content: space-between;
-}
 .sizeApp {
+  position: relative;
   max-width: 1200px;
   display: flex;
+  flex-direction: column;
+  /* overflow-y: auto; */
+  bottom: 0;
 }
+header.header {
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.header_content {
+  padding: 0 20px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.menuItem {
+  height: 100px;
+  line-height: 100px;
+}
+/* .startContent {
+  margin-top: 50px;
+} */
 footer.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
   background-color: #001529;
   color: rgba(255, 255, 255, 0.65);
   height: 100px;
 }
 .content {
+  /* overflow: hidden; */
   display: flex;
   justify-content: center;
   color: rgba(255, 255, 255, 0.65);
   background-color: #120821;
-  /* height: 100vh; */
+  height: 100;
 }
