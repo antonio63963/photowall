@@ -24,13 +24,13 @@ function MainPage() {
             </div>
         </Header>
         <Content className={style.content} >
-          <div className="site-layout-content" style={{ paddingTop: '100px'}}>
-            <StartContent className={style.StartContent}/>
+          <div className="site-layout-content" className={style.startContent}>
+            <StartContent />
             <AuthBlock />
             {/* <HowBlock /> */}
           </div>
         </Content>
-        <Footer className={style.footer} style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+        <Footer className={style.footer} style={{ textAlign: 'center' }}>Fomin Anton ©2022 Created by Ant UED</Footer>
     </Layout>
   </Layout>
   )

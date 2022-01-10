@@ -46,13 +46,26 @@
   margin: 0;
   margin-top: auto;
   line-height: 100px;
+  opacity: 0;
+  transform: translate3d(0, 20px, 0)
 }
-
+.titleBlock_mainTitle1.active3 { 
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+  transition: all 2s ease-in-out ; 
+}
 .titleBlock_mainTitle2 {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 22px;
+  opacity: 0;
+  transform: translate3d(0, 10px, 0)
+}
+.titleBlock_mainTitle2.active3 { 
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+  transition: all 2s ease-in-out .3s; 
 }
 .largeSizeScreen {
   display: flex;
@@ -72,15 +85,13 @@
   overflow: hidden;
 }
 
-.photoItem3 {
-  display: none
-}
+
 .photoItem3 {
   transform: translate3d(0, 0, 0 );
   opacity: 0;
   
 }
-.active3 {
+.photoItem3.active3 {
   transform: translate3d(-90px, 0, 0 );
   opacity: 0.5;
   transition: all 2s ease-in-out .2s;

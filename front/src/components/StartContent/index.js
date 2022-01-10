@@ -18,38 +18,38 @@ function StartContent() {
         <div className={style.mainWrapper}>
           <div className={style.wrapperPhotos}>
             <div className={style.titleBlock}>
-              <h1 className={style.titleBlock_mainTitle1}>Show your photos</h1>
-              <h1 className={style.titleBlock_mainTitle2}>by Photo Wall</h1>
+              <h1 className={`${style.titleBlock_mainTitle1} ${!isLoad ? null : style.active3}`}>Show your photos</h1>
+              <h1 className={`${style.titleBlock_mainTitle2} ${!isLoad ? null : style.active3}`}>by Photo Wall</h1>
             </div>
             <div className={style.column}>
               <div>
                 <img 
-                className={`${!isLoad ? 
-                  style.photoItem3 : style.active3}`} 
+                className={`${style.photoItem3} ${!isLoad ? 
+                  null : style.active3}`} 
                 src={music} />
               </div>       
             </div>
             <div className={style.column}>
              <div>
                 <img 
-                className={`${!isLoad ? 
-                  style.photoItem3 : style.active3}`} 
+                className={`${style.photoItem3} ${!isLoad ? 
+                  null : style.active3}`} 
                 src={woman} />
              </div>       
             </div>
             <div className={style.column}>
              <div>
                 <img 
-                className={`${!isLoad ? 
-                  style.photoItem3 : style.active3}`} 
+                className={`${style.photoItem3} ${!isLoad ? 
+                  null : style.active3}`} 
                 src={man2} />
              </div>       
             </div>
             <div className={style.column}>
              <div>
                 <img 
-                  className={`${!isLoad ? 
-                    style.photoItem3 : style.active3}`} 
+                  className={`${style.photoItem3} ${!isLoad ? 
+                    null : style.active3}`} 
                   src={portrait} 
                 />
              </div>       
@@ -60,13 +60,13 @@ function StartContent() {
         <div className={style.mainWrapper2}>
           <div className={style.wrapperPhotos}>
             <div className={style.titleBlock}>
-              <h1 className={style.titleBlock_mainTitle1}>Show your photos</h1>
-              <h1 className={style.titleBlock_mainTitle2}>by Photo Wall</h1>
+              <h1 className={`${style.titleBlock_mainTitle1} ${!isLoad ? null : style.active3}`}>Show your photos</h1>
+              <h1 className={`${style.titleBlock_mainTitle2} ${!isLoad ? null : style.active3}`}>by Photo Wall</h1>
             </div>
             <div className={style.column}>
               <div>
                 <img 
-                className={`${!isLoad ? 
+                className={`${style.photoItem3} ${!isLoad ? 
                   style.photoItem3 : style.active3}`} 
                 src={music} />
               </div>       
@@ -74,7 +74,7 @@ function StartContent() {
             <div className={style.column}>
              <div>
                 <img 
-                className={`${!isLoad ? 
+                className={`${style.photoItem3} ${!isLoad ? 
                   style.photoItem3 : style.active3}`} 
                 src={woman} />
              </div>       

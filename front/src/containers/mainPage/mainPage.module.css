@@ -33,9 +33,9 @@ header.header {
   height: 100px;
   line-height: 100px;
 }
-/* .startContent {
-  margin-top: 50px;
-} */
+.startContent {
+  padding-top: 100px;
+}
 footer.footer {
   position: fixed;
   bottom: 0;
@@ -53,4 +53,22 @@ footer.footer {
   color: rgba(255, 255, 255, 0.65);
   background-color: #120821;
   height: 100;
+}
+@media screen and (max-width: 670px) {
+  .menuItem {
+    height: 90px;
+    line-height: 90px;
+  }
+  .startContent {
+    padding-top: 90px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .menuItem {
+    height: 80px;
+    line-height: 80px;
+  }
+  .startContent {
+    padding-top: 80px;
+  }
 }
